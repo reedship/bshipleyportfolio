@@ -15,6 +15,9 @@
 
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
   <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
   <link
     href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
@@ -58,7 +61,7 @@
   </nav>
 
   <!-- Header -->
-  <header class="masthead">
+  <header class="masthead" style="background-image:url(./img/landing.jpeg)">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
         <h1 class="mx-auto my-0 text-uppercase">Braden Shipley</h1>
@@ -74,8 +77,8 @@
       <div class="row" style="min-height: 63vh">
         <div class="col-lg-8" style="margin-left: 0; width: 100vw;">
           <h2 class="text-white mb-4">Technologies & Skills</h2>
-          <div class="contain" style="margin-top: 5vh">
-            <div class="Skills">
+          <div class="contain" style="margin-top: 5vh;">
+            <div class=" Skills">
               <div class="Skill">
                 <p class="Skill__title" style="color: white; margin-bottom: 0">React</p>
                 <a class="Skill__link" href="https://reactjs.org" target="_blank">
@@ -98,12 +101,6 @@
                 <p class="Skill__title" style="color: white; margin-bottom: 0">Express</p>
                 <a class="Skill__link" href="https://expressjs.com" target="_blank">
                   <img class="Skill__img" src="./img/express.svg" alt="Express">
-                </a>
-              </div>
-              <div class="Skill">
-                <p class="Skill__title" style="color: white; margin-bottom: 0">Sass</p>
-                <a class="Skill__link" href="https://sass-lang.com/" target="_blank">
-                  <img class="Skill__img4" src="./img/sass.png" alt="Sass icon">
                 </a>
               </div>
               <div class="Skill">
@@ -143,12 +140,21 @@
                   <img class="Skill__img" src="./img/html5.svg" alt="HTML5">
                 </a>
               </div>
-              <!-- <div class="Skill">
+              <div class="Skill">
                 <p class="Skill__title" style="color: white; margin-bottom: 0">MATERIAL-UI</p>
                 <a class="Skill__link" href="https://material-ui.com/" target="_blank">
-                  <img class="Skill_img" height=200 width=200 src="./img/material-ui.svg" alt="MATERIAL-UI">
+                  <img class="Skill_img" height=200 width=170 src="./img/material-ui-logo.svg" alt="MATERIAL-UI">
                 </a>
-              </div> -->
+              </div>
+              <div class="Skill">
+                <p class="Skill__title" style="color: white; margin-bottom: 0">Sass</p>
+                <a class="Skill__link" href="https://sass-lang.com/" target="_blank">
+                  <img class="Skill__img" src="./img/sass-lang-icon.svg" height=200 width=170 style="margin-left:60px;"
+                    alt="Sass icon">
+                  <!-- <i class="devicon-sass-original" style="font-size:4em"></i> -->
+
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -161,20 +167,18 @@
     <div class="container">
       <div class="row align-items-center no-gutters mb-4 mb-lg-5">
         <div class="col-xl-8 col-lg-7" style="max-width: 50%">
-          <img class="img-fluid mb-3 mb-lg-0" src="img/jeremyscott.jpg" alt="">
+          <img class="img-fluid mb-3 mb-lg-0" src="img/picture.jpg" alt="">
         </div>
         <div class="col-xl-4 col-lg-5" style="min-width: 27vw">
           <div class="featured-text text-center text-lg-left">
             <h4>About Me</h4>
-            <p class="text-black-50 mb-0">In my career, I have experienced a variety of different industries
-              that didn't quite click with me. However, once I got into development, I found a profession that finally
-              clicked.
-              I am excited to be apart of the process of building web applications. It has really opened up a creative
-              side of me that has been rewarding and exciting.
+            <p class="text-black-50 mb-0">I am a Web Developer in Denton, TX. After serving for six years in the Texas
+              Army National Guard as an Infantry NCO, I transitioned into software development. I'm passionate about
+              learning new technologies, spending time with my wife, son, three dogs, and weight lifting.
               <a class="nav-link js-scroll-trigger" href="#about" style="display: inline; padding: 0; margin: 0"></a>
               <br /><br />
               <p>
-                <a href="resume.pdf" download>
+                <a href="bradenShipleyResume.pdf" download>
                   Download Resume
                   <i class="icon-download4"></i>
                 </a>
@@ -192,23 +196,21 @@
       <!-- Project One Row -->
       <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
         <div class="col-lg-6" style="background: rgb(19, 18, 18)">
-          <div style="position:relative;height:0;padding-bottom:56.25%"><iframe
-              src="https://www.youtube.com/embed/-O66X7dWvHg" frameborder="0" allow="autoplay; encrypted-media"
-              style='position:absolute;width:100%;height:100%;left:0' allowfullscreen></iframe></div>
+          <div style="position:relative;height:0;padding-bottom:56.25%"><iframe width="560" height="315"
+              src="https://www.youtube.com/embed/N95z3fSR3jY" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
         </div>
         <div class="col-lg-6">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-left">
-                <h4 class="text-white">Sugarboy Donuts</h4>
-                <p class="mb-0 text-white-50">A demonstrative e-commerce site created with a local donut shop in mind
-                  that I like to frequent. It has
-                  a customer facing side that allows for donut purchases, as well as an admin side that allows for
-                  product changes,
-                  additions, deletions, as well as a chart of the most popular donut type purchased.
-                  <br /><br />View GitHub Repo <a href="https://github.com/jeremylscott/sugarboy_personal_project"
-                    target="_blank">here</a>
-                  <br /><br />View live site <a href="http://www.lekkerdonuts.com" target="_blank">here</a>
+                <h4 class="text-white">PPP5</h4>
+                <p class="mb-0 text-white-50">A Full Stack Pair Programming application for P5.js library. This project
+                  was built
+                  in React using Redux, Socket.io, Sass, with a SQL database.
+                  <br /><br />View GitHub Repo <a href="https://github.com/bradenshipley/PPP5" target="_blank">here</a>
+                  <br /><br />View live site <a href="http://www.pairprogrammingp5.com" target="_blank">here</a>
                 </p>
                 <hr class="d-none d-lg-block mb-0 ml-0">
               </div>
@@ -218,21 +220,23 @@
       </div>
 
       <!-- Project Two Row -->
-      <div class="row justify-content-center no-gutters">
-        <div class="col-lg-6">
-          <img class="img-fluid" src="./img/views.png" alt="">
+      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div class="col-lg-6" style="background: rgb(19, 18, 18)">
+          <div style="position:relative;height:0;padding-bottom:56.25%;width:inherit;">
+            <iframe width="555" height="315" src="https://www.youtube.com/embed/Mm0UnK66378" frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
         </div>
         <div class="col-lg-6 order-lg-first">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-right">
-                <h4 class="text-white">First Night Out</h4>
-                <p class="mb-0 text-white-50">This group project was built to help people that are new to
-                  an area, find a nice day of activities based on information from other users.
-                  <br /><br />View GitHub repository <a href="https://github.com/firstnightout/first-night-out"
-                    target="_blank">here</a>
-                  <br /><br />View live site <a href="http://www.firstnightout.fun" target="_blank">here</a> (* intended
-                  for mobile use only)
+                <h4 class="text-white">Magic The Deck Builder</h4>
+                <p class="mb-0 text-white-50">This was my first personal project at DevMountain. It's a small-scale
+                  application built in React to interact with the Magic API. Users can sort and browse cards by color,
+                  name, and rarity, and then add them to their own deck and rename them.
+                  <br /><br />
+                  View GitHub Repo <a href="https://github.com/firstnightout/first-night-out" target="_blank">here</a>
                 </p>
                 <hr class="d-none d-lg-block mb-0 mr-0">
               </div>
@@ -269,7 +273,7 @@
               <i class="fas fa-map-marked-alt text-primary mb-2"></i>
               <h4 class="text-uppercase m-0">Location</h4>
               <hr class="my-4">
-              <div class="small text-black-50">Dallas/Fort Worth, Texas</div>
+              <div class="small text-black-50">Denton, Texas</div>
             </div>
           </div>
         </div>
@@ -281,7 +285,7 @@
               <h4 class="text-uppercase m-0">Email</h4>
               <hr class="my-4">
               <div class="small text-black-50">
-                <a href="mailto:jeremylscott@gmail.com">jeremylscott@gmail.com</a>
+                <a href="mailto:jeremylscott@gmail.com">bradenrshipley@gmail.com</a>
               </div>
             </div>
           </div>
@@ -293,17 +297,17 @@
               <i class="fas fa-mobile-alt text-primary mb-2"></i>
               <h4 class="text-uppercase m-0">Phone</h4>
               <hr class="my-4">
-              <div class="small text-black-50">(469) 688-4284</div>
+              <div class="small text-black-50">(469) 693-8196</div>
             </div>
           </div>
         </div>
       </div>
 
       <div class="social d-flex justify-content-center" style="margin-top: 15vh">
-        <a href="https://www.linkedin.com/in/jeremyleescott" target="_blank" class="mx-2">
+        <a href="https://www.linkedin.com/in/bradenshipley" target="_blank" class="mx-2">
           <i class="fab fa-linkedin"></i>
         </a>
-        <a href="https://github.com/jeremylscott" target="_blank" class="mx-2">
+        <a href="https://github.com/bradenshipley" target="_blank" class="mx-2">
           <i class="fab fa-github"></i>
         </a>
       </div>
@@ -314,7 +318,7 @@
   <!-- Footer -->
   <footer class="bg-black small text-center text-white-50" style="padding-top: 0; height: 10vh">
     <div class="container" style="padding-bottom: 5vh">
-      Copyright &copy; Jeremy L. Scott 2019
+      Copyright &copy; Braden Shipley 2019
     </div>
   </footer>
 

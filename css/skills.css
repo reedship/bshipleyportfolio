@@ -6,7 +6,7 @@
 .Skills{
   display: flex;
   flex-wrap: wrap;
-  width: 75vw;
+  width: 80vw;
   margin-left: 15vw;
 }
 .img-fluid.mb-3.mb-lg-0{
@@ -24,8 +24,8 @@
   margin-left:1vw;
 }
 .Skill_img4 {
-  width: 10vh !important;
-  height: 20vw !important;
+  width: 150px!important;
+  height: 150px !important;
 }
 
 @media (max-width: 1024px) {

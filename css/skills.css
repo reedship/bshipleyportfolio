@@ -6,7 +6,7 @@
 .Skills{
   display: flex;
   flex-wrap: wrap;
-  width: 80vw;
+  width: 75vw;
   margin-left: 15vw;
 }
 .img-fluid.mb-3.mb-lg-0{
@@ -17,15 +17,9 @@
   width: 41vw !important;
 }
 
-.Material__img{
-  width:10vw !important;
-  height:20vh !important;
-  margin-top:5vh;
-  margin-left:1vw;
-}
 .Skill_img4 {
-  width: 150px!important;
-  height: 150px !important;
+  width: 10vh !important;
+  height: 20vw !important;
 }
 
 @media (max-width: 1024px) {
@@ -42,7 +36,6 @@
   }
   .Skill{
     max-width: 45%;
-    /* min-width:45%; */
     margin: 2vh 0;
   }
   .col-xl-8.col-lg-7{
@@ -54,6 +47,7 @@
     margin: 0 auto;
   }
 }
+
 /*
 
 .text-white.mb-4{

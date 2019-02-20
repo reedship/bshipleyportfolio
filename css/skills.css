@@ -1,0 +1,464 @@
+.text-white.mb-4{
+  width: 100vw;
+  margin: 0 auto;
+  margin-bottom: 15vh;
+}
+.Skills{
+  display: flex;
+  flex-wrap: wrap;
+  width: 75vw;
+  margin-left: 15vw;
+}
+.img-fluid.mb-3.mb-lg-0{
+  max-width: 28vw;
+}
+
+.img-fluid {
+  width: 41vw !important;
+}
+
+.Material__img{
+  width:10vw !important;
+  height:20vh !important;
+  margin-top:5vh;
+  margin-left:1vw;
+}
+.Skill_img4 {
+  width: 10vh !important;
+  height: 20vw !important;
+}
+
+@media (max-width: 1024px) {
+  .img-fluid {
+      width: 100vw !important;
+    }
+}
+
+@media only screen and (max-width: 700px){
+  .Skills{
+    margin-left: 0;
+    width: 100vw;
+    justify-content: space-around;
+  }
+  .Skill{
+    max-width: 45%;
+    /* min-width:45%; */
+    margin: 2vh 0;
+  }
+  .col-xl-8.col-lg-7{
+    margin: 0 auto;
+  }
+  .img-fluid.mb-3.mb-lg-0{
+    max-width: 50vw;
+    width: 50vw;
+    margin: 0 auto;
+  }
+}
+/*
+
+.text-white.mb-4{
+  width: 100vw;
+  margin: 0 auto;
+  margin-bottom: 15vh;
+}
+.Skills{
+  display: flex;
+  flex-wrap: wrap;
+  width: 75vw;
+  margin-left: 15vw;
+}
+.img-fluid.mb-3.mb-lg-0{
+  max-width: 28vw;
+}
+
+.Skills {
+  width: 82vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: -14vw;
+}
+
+.groupCont {
+  display: flex;
+  background: #161616;
+  margin-top: -8vh;
+}
+
+.groupInfo {
+  color: #828282;
+}
+
+.groupTitleInfo {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  padding: 2vh;
+}
+
+.loginPage, .navBarPage {
+  z-index: 5;
+  margin-top: 4vh;
+}
+
+.groupTitle {
+  color: white;
+  margin-top: 2vh;
+}
+
+.aboutme {
+  display: flex;
+  background: white;
+}
+
+.pic {
+  width: 30vw;
+  height: 60vh;
+  margin-top: -4vh;
+  margin-left: -10vw;
+  border-radius: 8px;
+  margin-bottom: 20vh;
+  padding-right: 2vw;
+}
+
+.title-info {
+  margin-left: 3vw;
+  width: 20vw;
+}
+
+.lowBar {
+  width: 9vw;
+  height: .3vw;
+  background: #64A19D;
+}
+
+.titleabout {
+  color: white;
+  opacity: .7;
+  width: 30vw;
+  margin-top: -12vh;
+  font-size: 2.2em;
+  padding-right: 4vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-info {
+  border-radius: 15px;
+  margin-left: -2vw;
+  padding-left: 3vw;
+  font-size: 1.6em;
+  color: white;
+  opacity: .7;
+  width: 40vw;
+  text-align: left;
+  height: 22vh;
+}
+
+.download {
+  margin-top: -8vh;
+}
+
+.resume {
+  margin-top: 32vh;
+}
+
+@media (max-width: 1024px) {
+  .Skills {
+      margin-left: -9.5vw;
+  }
+
+  .text-white2 {
+     margin-top: -10vh;
+     color: white;
+  }
+
+  .text-white {
+      padding-top: 5vh;
+
+   }
+
+  .text-white-50 {
+      padding-top: 2vh;
+  }
+
+  .utubeCont {
+      padding-top: 4vw;
+  }
+
+  .text-white.mb-4 {
+      margin-top: 3vh !important;
+      padding-right: 38vw !important;
+  }
+
+  .pic {
+      height: 25vh;
+      width: 30vw;
+      margin-right: -2vw;
+      margin-top: -2.5vh;
+  }
+
+  .title-info {
+      margin-top: -3vh;
+  }
+
+  .about-info {
+      margin-left: 2vw;
+      width: 50vw;
+      height: 32vh;
+      border: none;
+      font-size: 1.5em;
+  }
+
+  .titleabout {
+      padding-left: 17vw;
+      width: 40vw;
+      margin-top: -3vh;
+      font-size: 2em;
+  }
+
+  .aboutme {
+      margin-left: -4vw;
+      width: 25vw;
+      height: 50vh;
+  }
+
+  .resume {
+      margin-left: 5vw;
+      margin-top: -12vh;
+  }
+
+  .img-fluid {
+      height: 30  vh;
+      width: 50vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .Skills {
+    width: 80vw;
+    margin-left: 5vw;
+    margin-top: -4vh;
+  }
+
+  .text-white.mb-4 {
+      margin-top: 0vh !important;
+  }
+
+  .pic {
+      height: 22vh;
+      width: 30vw;
+      margin-left: 3vw;
+      margin-top: -2vh;
+  }
+
+  .title-info {
+      margin-top: -3vh;
+  }
+
+  .about-info {
+      margin-left: 1vw;
+      width: 60vw;
+      height: 30vh;
+      font-size: 1.1em;
+      border: none;
+  }
+
+  .titleabout {
+      padding-left: 8vw;
+      width: 50vw;
+      font-size: 1.6em;
+  }
+
+  .aboutme {
+      margin-left: -4vw;
+      width: 25vw;
+  }
+
+  .resume {
+      margin-left: 5vw;
+      margin-top: -14vh;
+  }
+}
+
+
+@media (max-width: 414px) {
+  .Skills {
+    width: 80vw;
+    margin-left: 7vw;
+    margin-top: -5vh;
+  }
+
+  .text-white.mb-4 {
+      margin-top: -4vh !important;
+  }
+
+  .img-fluid {
+      width: 20vw;
+  }
+
+  .skill_img {
+      width: 16vw !important;
+      height: 16vh !important;
+      margin-left: 2vw !important;
+  }
+
+  .pic {
+      height: 22vh;
+      width: 27vw;
+      margin-left: 3vw;
+      margin-top: -10vh;
+  }
+
+  .title-info {
+      margin-top: -15vh;
+  }
+
+  .about-info {
+      margin-left: 1vw;
+      width: 55vw;
+      height: 15vh;
+      font-size: .7em;
+      border-left: none;
+  }
+
+  .titleabout {
+      padding-left: 8vw;
+      width: 50vw;
+      font-size: 1.3em;
+      margin-top: .5vh;
+  }
+
+  .aboutme {
+      margin-left: 1vw;
+      width: 22vw;
+  }
+
+  .resume {
+      margin-left: 5vw;
+      margin-top: -3vh;
+      font-size: .6em;
+      width: 25vw;
+  }
+
+  .skill_img2 {
+      width: 16vw !important;
+      height: 9vh !important;
+      margin-top: 3.5vh !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .pic {
+      height: 22vh;
+      width: 27vw;
+      margin-left: 3vw;
+      margin-top: -11vh;
+  }
+
+  .text-white.mb-4 {
+      margin-top: -8vh !important;
+  }
+
+  .title-info {
+      margin-top: -16vh;
+  }
+
+  .about-info {
+      width: 55vw;
+      height: 12vh;
+      font-size: .6em;
+      border-left: none;
+  }
+
+  .titleabout {
+      padding-left: 8vw;
+      width: 50vw;
+      font-size: 1.2em;
+  }
+
+  .aboutme {
+      margin-left: 1vw;
+      width: 25vw;
+  }
+
+  .resume {
+      margin-left: 5vw;
+      margin-top: -9vh;
+      font-size: .6em;
+      width: 25vw;
+  }
+}
+
+@media (max-width: 320px) {
+  .Skills {
+    width: 85vw;
+    margin-left: 2vw;
+    margin-top: -4vh;
+  }
+
+  .text-white.mb-4 {
+      font-size: 1.2em;
+      margin-top: -12vh !important;
+  }
+
+  .skill_img {
+      width: 16vw !important;
+      height: 16vh !important;
+      margin-left: 2vw !important;
+  }
+
+  .skill-title {
+      font-size: .6em;
+  }
+
+  .pic {
+      height: 22vh;
+      width: 27vw;
+      margin-left: 3vw;
+      margin-top: -15vh !important;
+  }
+
+  .title-info {
+      margin-top: -15vh;
+  }
+
+  .about-info {
+      margin-left: 1vw;
+      width: 55vw;
+      height: 24vh;
+      font-size: .5em;
+      border: none;
+  }
+
+  .titleabout {
+      padding-left: 8vw;
+      width: 50vw;
+      font-size: 1em;
+      margin-top: -5vh;
+  }
+
+  .aboutme {
+      margin-left: 1vw;
+      width: 25vw;
+  }
+
+  .resume {
+      margin-left: 5vw;
+      margin-top: -12vh;
+      font-size: .6em;
+      width: 25vw;
+  }
+
+  .download {
+      margin-top: -8vh;
+  }
+
+  .skill_img2 {
+      width: 16vw !important;
+      height: 9vh !important;
+      margin-top: 3.5vh !important;
+  }
+
+
+} */ */

@@ -3,134 +3,206 @@
   <meta charset="UTF-8">
   <title>Reed Shipley</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="https://unpkg.com/chota@latest">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Space%20Mono|Inter">
+  <!-- <link rel="stylesheet" href="https://unpkg.com/chota@latest"> -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
-  <style>
-    :root {
-      --bg-color: #0f111a;
-      --font-color: #8F93A2;
-      --color-primary: #c792ea ;
-      --color-secondary: #f78c6c;
-    }
-    .profilepicture {
-      height: auto;
-      width: auto;
-    }
-    .devicon-rust-plain.colored {
-      color: #f78c6c;
-    }
-  </style>
-  <script>
-  </script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link rel="stylesheet" href="./index.css">
+  <!-- <link rel="script" href="./script.js"> -->
+  <script src="./script.js"></script>
   <body>
-    <nav class="nav" style="margin-bottom:5px;">
+
+    <nav class="nav">
       <div class="nav-left">
-        <div class="brand text-primary">Reed Shipley</div>
+        <img
+          src="./assets/name.png"
+          class="nav-left-name"
+        />
       </div>
       <div class="nav-right">
-        <a class="button primary" style="color: #0f111a;" href="https://medium.com/@bradenshipley">Articles</a>
-        <a class="button primary" style="color: #0f111a;" href="mailto:reedbshipley@gmail.com">Contact</a>
+        Contact // reedbshipley@gmail.com
       </div>
     </nav>
-        <h1 class="text-primary is-center">My name is Reed and I write software for a living</h1>
-    <div class="container">
-      <div class="row">
-        <img class="col-6" src="./assets/golfing.jpg" alt="a picture of me golfing!"/>
-        <div class="container col-6">
-          <div class="card">
-            <header class="text-primary is-center">
-              <h3>About Me</h3>
-            </header>
-            <p>I am a software engineer based out of Colorado. I build scalable software solutions to solve a wide variety of problems, both in private enterprise and for the federal government. I am available for freelance work and am proficient in a variety of languages and frameworks. (This portfolio is a work-in-progress)
-            </p>
-            <footer class="is-right">
-              <a href="https://www.github.com/reedship">
-                Github
-              </a>
-              <div class="text-primary">&nbsp;|&nbsp;</div>
-              <a href="./assets/reedshipley.docx" download>
-                Download Resume
-              </a>
-            </footer>
-          </div>
-          <div class="card">
-            <header>
-              <h3 class="text-primary is-center">Skillset</h3>
-            </header>
-            <h4>Languages:</h4>
-            <div class="container">
-              <i   alt="rust" class="devicon-rust-plain colored" style="font-size: 55px"></i>
-              <img alt="ruby" src="https://icongr.am/devicon/ruby-plain.svg?size=55&color=f78c6c" />
-              <img alt="javascript" src="https://icongr.am/devicon/javascript-plain.svg?size=55&color=f78c6c" />
-              <img alt="html5" src="https://icongr.am/devicon/html5-plain.svg?size=55&color=f78c6c" />
-              <img alt="css3" src="https://icongr.am/devicon/css3-plain.svg?size=55&color=f78c6c" />
-            </div>
-            <h4>Frameworks:</h4>
-            <div class="container">
-              <img alt="ruby on rails" src="https://icongr.am/devicon/rails-plain-wordmark.svg?size=55&color=f78c6c" />
-              <img alt="postgresql" src="https://icongr.am/devicon/postgresql-plain-wordmark.svg?size=55&color=f78c6c" />
-              <img alt="redhat" src="https://icongr.am/devicon/redhat-plain-wordmark.svg?size=55&color=f78c6c" />
-              <img alt="redis" src="https://icongr.am/devicon/redis-plain-wordmark.svg?size=55&color=f78c6c" />
-            </div>
-            <h4>Tools:</h4>
-            <div class="container">
-              <img alt="vim" src="https://icongr.am/devicon/vim-plain.svg?size=55&color=f78c6c" />
-              <img alt="git" src="https://icongr.am/devicon/git-plain.svg?size=55&color=f78c6c" />
-            </div>
-          </div>
-        </div>
+
+    <div class="header-container">
+      <img class="header-img" src="./assets/golfing.jpg" alt="An image of me playing golf"/>
+      <div class="header-text">
+        HI, MY NAME IS REED AND I WRITE SOFTWARE
       </div>
     </div>
-    <header class="is-center text-primary">
-      <h3>Projects</h3>
-    </header>
-    <div class="container">
-      <div class="row">
-        <div class="card col-6">
-          <header class="is-center">
-            <h5>SimpleOkta</h5>
-          </header>
-          <p>An open-source HTTP gem for common Okta API calls.</p>
-          <footer class="is-right">
-            <a href="https://rubygems.org/gems/simpleokta">RubyGems Source </a>
-            <div class="text-primary">&nbsp;|&nbsp;</div>
-            <a href="https://github.com/reedship/simpleokta">Github Repo</a>
-          </footer>
-        </div>
-        <div class="col-6 card">
-          <header class="is-center">
-            <h5>PPP5</h5>
-          </header>
-          <p>A Full Stack Pair Programming application for the P5.js library.</p>
-          <footer class="is-right">
-            <a href="https://www.youtube.com/embed/N95z3fSR3jY">Video Walkthrough</a>
-            <div class="text-primary">&nbsp;|&nbsp;</div>
-            <a href="https://github.com/reedship/ppp5">Github Repo</a>
-          </footer>
+
+    <div class="content">
+      <div class="about-me">
+        <div class="about-me-content">
+          <p>I am a software engineer based out of Colorado. I build scalable software solutions to solve a wide variety of problems, both in provate enterprise and for the federal government. I am available or freelance work and am proficient in a variety of languages and frameworks. (This portfolio is a work in progress)</p>
+          <a href="./assets/reedshipley.docx" download>
+            <img
+              class="about-me-content-button"
+              src="./assets/downloadButton.png"
+            />
+          </a>
         </div>
       </div>
-      <div class="row">
-        <div class="card col-6">
-          <header class="is-center">
-            <h5>Magic: The Deck Builder</h5>
-          </header>
-          <p>This was my first personal project at DevMountain. It's a small-scale application built in React to interact with the Magic API. Users can sort and browse cards by color, name, and rarity, and then add them to their own deck and rename them.</p>
-          <footer class="is-right">
-            <a href="https://www.youtube.com/embed/Mm0UnK66378">Video Walkthrough</a>
-            <div class="text-primary">&nbsp;|&nbsp;</div>
-            <a href="https://github.com/reedship/mtdb">Github Repo</a>
-          </footer>
+
+      <div class="links">
+        <div class="links-left">
+          <div class="links-left-title">LINKS</div>
+          <div class="links-button-container">
+            <img
+               class="links-img"
+               onclick="openImage('https://www.linkedin.com/in/reedbshipley/')"
+               src="./assets/linkedin.png"
+               alt="linkedin"
+            />
+            <img
+              onclick="openImage('https://www.github.com/reedship')"
+              class="links-img"
+              src="./assets/github.png"
+              alt="github"
+            />
+            <img
+              onclick="openImage('https://reedbshipley.medium.com/')"
+              class="links-img"
+              src="./assets/medium.png"
+              alt="medium"
+            />
+          </div>
         </div>
-        <div class="card col-6">
-          <header class="is-center">
-            <h5>Ordeer</h5>
-          </header>
-          <p>A Full Stack Restaurant Ordering Application. This project was built in React with React Hooks, Material-UI, and Firebase. This was the final group project assigned for my cohort at DevMountain.</p>
-          <footer class="is-right">
-            <a href="https://www.youtube.com/embed/B5NUT5Hejf0">Video Walkthrough</a>
-            <div class="text-primary">&nbsp;|&nbsp;</div>
-            <a href="https://github.com/restaurant-ordering/Ordeer">Github Repo</a>
-          </footer>
+        <div class="links-right">
+
+          <div class="links-right-title">
+            SKILLSET
+          </div>
+
+          <div class="links-right-tabs">
+            <div
+              class="links-right-tab active-tab"
+              id="languages"
+              onclick="selectTab('languages','languages-icons')"
+            >
+              <div class="links-right-tab-title active-title" id="languages-title">
+                <p>
+                  Languages
+                </p>
+              </div>
+            </div>
+            <div
+              class="links-right-tab"
+              id="frameworks"
+              onclick="selectTab('frameworks', 'frameworks-icons')"
+            >
+              <div class="links-right-tab-title" id="frameworks-title">
+                <p>
+                  Frameworks
+                </p>
+                </div>
+            </div>
+            <div
+               class="links-right-tab"
+               id="tools"
+               onclick="selectTab('tools','tools-icons')"
+            >
+              <div class="links-right-tab-title" id="tools-title">
+                <p>
+                  Tools
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="links-right-icon-container active-icons" id="languages-icons">
+            <img class="links-right-icons" src="https://icongr.am/devicon/ruby-plain.svg?size=99&#38;color=FF9C6A" alt="ruby"/>
+            <img class="links-right-icons" src="https://icongr.am/devicon/javascript-plain.svg?size=99&#38;color=FF9C6A" alt="javascript"/>
+            <img class="links-right-icons" src="./assets/rust.png" alt="rust"/>
+            <img class="links-right-icons" src="https://icongr.am/devicon/html5-plain.svg?size=99&#38;color=FF9C6A" alt="html"/>
+            <img class="links-right-icons" src="https://icongr.am/devicon/css3-plain.svg?size=99&#38;color=FF9C6A" alt="css"/>
+          </div>
+
+           <div class="links-right-icon-container" id="frameworks-icons">
+             <img class="links-right-icons" src="./assets/vue.png" alt="vue"/>
+             <img class="links-right-icons" src="./assets/react.png" alt="react"/>
+             <img class="links-right-icons" alt="ruby on rails" src="https://icongr.am/devicon/rails-plain-wordmark.svg?size=99&#38;color=FF9C6A" />
+             <img class="links-right-icons" alt="redhat" src="https://icongr.am/devicon/redhat-plain-wordmark.svg?size=99&#38;color=FF9C6A" />
+          </div>
+
+          <div class="links-right-icon-container" id="tools-icons">
+             <img class="link-right-icons"  alt="postgresql" src="https://icongr.am/devicon/postgresql-plain-wordmark.svg?size=99&#38;color=FF9C6A" />
+
+            <img class="link-right-icons" alt="vim" src="https://icongr.am/devicon/vim-plain.svg?size=99&#38;color=FF9C6A" />
+            <img class="link-right-icons" alt="docker" src="https://icongr.am/devicon/docker-plain.svg?size=99&#38;color=FF9C6A" />
+            <img class="link-right-icons" alt="linux" src="https://icongr.am/devicon/linux-plain.svg?size=99&#38;color=FF9C6A" />
+            <img class="link-right-icons" alt="git" src="https://icongr.am/devicon/git-plain.svg?size=99&#38;color=FF9C6A" />
+          </div>
+
+        </div>
+      </div>
+
+      <div class="projects">
+        <div class="projets-container">
+          <div class="projects-title">PROJECTS</div>
+          <div class="projects-cards">
+
+            <div class="project-card">
+              <p>
+                SimpleOkta // An open-source HTTP gem for common Okta API calls
+              </p>
+              <div class="project-card-links-container">
+                <a class="project-card-link-a" href="https://rubygems.org/gems/simpleokta">
+                  <p>RubyGems Source</p>
+                </a>
+                <div class="project-card-link-divider"></div>
+                <a class="project-card-link-b" href="https://github.com/reedship/simpleokta">
+                  <p>Github Repo</p>
+                </a>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <p>
+                PPP5 // A Full Stack Pair Programming application for the P5.js library
+              </p>
+              <div class="project-card-links-container">
+                <a class="project-card-link-a" href="https://www.youtube.com/embed/N95z3fSR3jY">
+                  <p>Video Walkthrough</p>
+                </a>
+                <div class="project-card-link-divider"></div>
+                <a class="project-card-link-b" href="https://github.com/reedship/ppp5">
+                  <p>Github Repo</p>
+                </a>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <p>
+                Magic: The Deck Builder // A small-scale application built in React to interact with the Magic API
+              </p>
+              <div class="project-card-links-container">
+                <a class="project-card-link-a" href="https://www.youtube.com/embed/Mm0UnK66378">
+                  <p>Video Walkthrough</p>
+                </a>
+                <div class="project-card-link-divider"></div>
+                <a class="project-card-link-b" href="https://github.com/reedship/mtdb">
+                  <p>Github Repo</p>
+                </a>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <p>
+                Ordeer // A Full Stack Restaurant Ordering Application
+              </p>
+              <div class="project-card-links-container">
+                <a class="project-card-link-a" href="https://www.youtube.com/embed/B5NUT5Hejf0">
+                  <p>Video Walkthrough</p>
+                </a>
+                <div class="project-card-link-divider"></div>
+                <a class="project-card-link-b" href="https://github.com/restaurant-ordering/Ordeer">
+                  <p>Github Repo</p>
+                </a>
+              </div>
+            </div>
+
+          </div>
         </div>
       </div>
     </div>
